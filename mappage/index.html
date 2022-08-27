@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <div id="floating-panel">
+        <div>
+            <div>
+                <input type="text" id="from" placeholder="Origin">
+            </div>
+        </div>
+        <div>
+            <div>
+                <input type="text" id="to" placeholder="Destination">
+            </div>
+        </div>
+        <b>Mode of travel</b>
+        <select id="mode">
+            <option value="DRIVING">Driving</option>
+            <option value="WALKING">Walking</option>
+        </select><!--MODE-->
+    </div> <!-- floating panel --> 
+    <div id="map">
+
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0o7426_lp7HeE5ZIosId_cEDTqKBvXa8&callback=initMap"></script>
+</body>
+</html>
