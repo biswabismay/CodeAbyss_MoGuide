@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Login 10</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body class="img js-fullheight" style="background-image: url(bg.jpeg);">
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Login </h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-4">
+					<div class="login-wrap p-0">
+		      	<h3 class="mb-4 text-center">Have an account?</h3>
+		      	<form action="#" class="signin-form" id="loginform">
+                        <div class="form-group">
+                            <input type="text" id="email_field" class="form-control" placeholder="Username" required>
+                        </div>
+                    <div class="form-group">
+                    <input id="password_field" type="password" class="form-control" placeholder="Password" required>
+                    <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="submit-btn" class="form-control btn btn-primary submit px-3">Log In</button>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="signup-btn" class="form-control btn btn-primary submit px-3">Sign Up</button>
+                    </div>
+                    <div class="form-group d-md-flex">
+                        <div class="w-50">
+                            <label class="checkbox-wrap checkbox-primary">Remember Me
+                                        <input type="checkbox" checked>
+                                        <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="w-50 text-md-right">
+                                        <a href="#" style="color: #fff">Forgot Password</a>
+                                    </div>
+                    </div>
+	          </form>
+		      </div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-analytics.js";
+        const firebaseConfig = {
+          apiKey: "AIzaSyBso6HyS60ohZFE-tXJQB2SyD4FJuGoNpg",
+          authDomain: "login-a912a.firebaseapp.com",
+          projectId: "login-a912a",
+          storageBucket: "login-a912a.appspot.com",
+          messagingSenderId: "550398747095",
+          appId: "1:550398747095:web:cb44f6f9fb9530c46aeb92",
+          measurementId: "G-EMF6ZZPDX0"
+        };
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+    <script type="module" src="mech.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
