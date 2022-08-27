@@ -134,3 +134,6 @@
     line-height: 2rem;
     padding-bottom: 1rem;
   }
+  .menu a{
+    margin: 6px;
+  }

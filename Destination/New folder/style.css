@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.text{
+   text-align: center;
+   padding: 10px;
+   color: aqua;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.dot{
+    font-size: 60px;
+    color:grey;
+}
+/* .card-body{
+    
+} */

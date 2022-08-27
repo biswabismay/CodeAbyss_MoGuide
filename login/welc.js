@@ -34,7 +34,7 @@ onAuthStateChanged(auth,(user)=>{
 const post = {
     email: adm,
     name: "Siddhartha",
-    roll: "21052195"
+    nameed:"wehw"
   }
   
   const app = firebaseApp;
@@ -43,9 +43,9 @@ const post = {
       user1: post
     });
     update(ref(db), post) 
-    onValue(ref(db,"user1/name"), (snapshot) => {
+    /* onValue(ref(db,"user1/name"), (snapshot) => {
       document.getElementById("data").innerHTML="value in the database is: "+snapshot.val()
-    });
+    }); */
 });
 
 document.getElementById("logout").addEventListener('click',function logout(){

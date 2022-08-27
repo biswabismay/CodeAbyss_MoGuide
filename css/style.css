@@ -47,3 +47,13 @@ a {
   height: 650px;
   width: 300px;
 }
+
+.menu a{
+  margin: 4px;
+  padding: 2px;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
